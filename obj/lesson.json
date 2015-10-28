@@ -1,0 +1,53 @@
+{
+	"name": "lesson",
+	"name_plural": "lessons",
+	"nested" : true,
+	"data" : 
+	{
+		"id" :
+		{
+			"attr" : 1,
+			"type" : "int",
+			"ext" : false
+		},
+		"teacher" :
+		{
+			"attr" : 0,
+			"type" : "int",
+			"ext" :
+			{
+				"ext_resource" : "teacher.json"
+			}
+		},
+		"title" :
+		{
+			"attr" : 0,
+			"type" : "string",
+			"ext" : false
+		},
+		"description" :
+		{
+			"attr" : 0,
+			"type" : "string",
+			"ext" : false
+		},
+		"location" :
+		{
+			"attr" : 0,
+			"type" : "string",
+			"ext" : false
+		},
+		"start" :
+		{
+			"attr" : 0,
+			"type" : "int",
+			"ext" : false
+		},
+		"end" :
+		{
+			"attr" : 0,
+			"type" : "int",
+			"ext" : false
+		}
+	}
+}
