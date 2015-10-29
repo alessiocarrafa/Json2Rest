@@ -6,6 +6,7 @@
 	{
 		"id" :
 		{
+			"key" : true,
 			"attr" : 1,
 			"type" : "int",
 			"ext" : false
@@ -16,7 +17,7 @@
 			"type" : "int",
 			"ext" :
 			{
-				"ext_resource" : "teacher.json"
+				"ext_resource" : "teacher"
 			}
 		},
 		"title" :
